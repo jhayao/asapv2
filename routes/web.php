@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('student', 'StudentController')->only('index', 'create');
+
+
+Route::resource('student', 'StudentController')->only('index', 'create');
+
+
+Route::resource('student', 'StudentController')->only('index', 'create');

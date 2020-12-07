@@ -1,0 +1,21 @@
+models:
+  Models/Student:
+    studentnumber: string:255
+    lastname: string:255
+    givenname: string:255
+    middlename: string:255
+    gender: string:10
+    DegreeProgram: string:255
+    yearlevel: int
+    email: string:255
+
+
+controllers:
+  Student:
+    index:
+      query: all
+      render: student.index 
+    create:
+      render: post.create
+
+    

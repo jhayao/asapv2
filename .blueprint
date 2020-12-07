@@ -1,0 +1,11 @@
+created:
+    - app/Http/Controllers/StudentController.php
+    - database/factories/Models/StudentFactory.php
+    - database/migrations/2020_12_07_101351_create_students_table.php
+    - app/Models/Student.php
+    - tests/Feature/Http/Controllers/StudentControllerTest.php
+updated:
+    - routes/web.php
+models:
+    Student: { studentnumber: 'string:255', lastname: 'string:255', givenname: 'string:255', middlename: 'string:255', gender: 'string:10', DegreeProgram: 'string:255', yearlevel: int, email: 'string:255' }
+    Models/Student: { studentnumber: 'string:255', lastname: 'string:255', givenname: 'string:255', middlename: 'string:255', gender: 'string:10', DegreeProgram: 'string:255', yearlevel: int, email: 'string:255' }
